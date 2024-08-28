@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="myweb.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Stylish&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Gluten:wght@100..900&family=Pacifico&family=REM:ital,wght@0,100..900;1,100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Stylish&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Gluten:wght@100..900&family=Pacifico&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Stylish&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  /> -->
+    <title>my-web</title>
+  </head>
+  <body>
+    <div id="id01" class="modal">
+  
+      <form class="modal-content animate" action="/action_page.php" method="post">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+          <img src="image/pngtree-man-avatar-with-circle-frame-vector-ilustration-png-image_6110328.png" alt="Avatar" class="avatar" style="width: auto; height: 300px;">
+        </div>
+    
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+    
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+            
+          <button type="submit" class="login-button-1">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+    
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+    <div class="body-anim-icon">
+      <div class="body-icon">
+        <div class="icon-insta body-icons">
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="icon-yt body-icons">
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div class="icon-linkdin body-icons">
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <div class="icon-twitter body-icons">
+        <i class="fa-brands fa-x-twitter"></i>
+        </div>
+        <div class="icon-facebook body-icons">
+          <i class="fa-brands fa-facebook"></i>
+        </div>                                   
+      </div>
+    </div>
+    <div class="main">
+      <div class="container">
+        <nav>
+          <div class="logo-div">
+            <h4>hire <span>me</span></h4>
+          </div>
+          <div class="listitem">
+            <ul>
+              <li><a href="#">services</a></li>
+              <li><a href="#">Technologies</a></li>
+              <li><a href="#">about</a></li>
+              <li><a href="#">conetect us</a></li>
+              <li><a href="#">join team</a></li>
+              <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;"  class="btn-login">login</button>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <section class="second-sec">
+      <div class="container">
+        <div class="second-under">
+          <div class="under-row for-one">
+            <div class="left-side-second G">
+              <h1>A web site will be created to satisfy the customer</h1>
+              <p>We have created a web site based on your needs</p>
+              <div class="find-b">
+                <button class="start-button">start now</button>
+              </div>
+            </div>
+            <div class="right-side-second">
+              <img src="image/undraw_hello_re_3evm.png" alt=""  />
+            </div>
+          </div>
+        </div>
+        <div class="our-team-gol">
+          <span>Your Growth</span>
+          <span>Our Integrity</span>
+          <span>Creative Team</span>
+          <sp>Satisfying Solutions</sp>   
+        </div>
+      </div>
+    </section>
+    <section class="therd-sec">
+      <div class="under-detils-therd">
+        <div class="container">
+          <div class="columan-therd">
+            <div class="heading-one G">This is our small beginning  </div>
+            <div class="heading-tow s">
+              <h3><span> Grow your business</span> through our company</h3>
+              <p>
+                Our motto is to make the world acquainted with futuristic
+                solutions
+              </p>
+            </div>
+            <div class="heading-therd G">
+              <p>
+                We strive to solve the daily problems of mankind on our web site by creating a web site that solves the daily tasks quickly.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="heading-last-img">
+          <!-- <img src="image/office-view.webp"> -->
+          <div class="last-imafe-under"></div>
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <div class="container">
+        <div class="services-under">
+          <div class="row-service-1">
+            <div class="columan">
+              <h1>services</h1>
+            </div>
+          </div>
+          <div class="row-services-2">
+            <div class="service-main-col">
+              <div class="columan-ser">
+              <div class="under-services logo-ser-1">
+                <img src="web-img/app-development.png" alt="image" style="width: auto; height: 120px; margin:20px; ">
+              </div>
+              <div class="under-ser-heading service-heading-1">
+                <h3>Software Development Company</h3>
+                <p>Struggling to turn your software ideas into reality? Finding the right development partner is challenging. Lost opportunities due to delays,</p>
+              </div>
+            </div>
+            </div>
+            <div class="service-main-col">
+              <div class="columan-ser">
+              <div class="under-services logo-ser-1">
+                <img src="web-img/app-development.png" alt="image" style="width: auto; height: 120px; margin:20px; ">
+              </div>
+              <div class="under-ser-heading service-heading-2">
+                <h3>Front-End / Back-End Developers</h3>
+                <p>Struggling to find developers with specialized front-end and back-end skills? Slow development, functionality gaps, and customer dissatisfaction. Partner with Vision</p>
+              </div>
+            </div>
+            </div>
+            <div class="service-main-col">
+              <div class="columan-ser">
+              <div class="under-services logo-ser-1">
+                <img src="web-img/app-development.png" alt="image" style="width: auto; height: 120px; margin:20px; ">
+              </div>
+              <div class="under-ser-heading service-heading-3">
+                <h3>Full Stack Web Developers</h3>
+                <p>Need to build complex web applications, but your team lacks full-stack expertise? Slow development, poor project coordination, and</p>
+              </div>
+            </div>
+            </div>
+            <div class="service-main-col">
+              <div class="columan-ser">
+                <div class="under-services logo-ser-1">
+                  <img src="web-img/app-development.png" alt="image" style="width: auto; height: 120px; margin:20px; ">
+                </div>
+                <div class="under-ser-heading service-heading-4">
+                  <h3>Off/On Shore Development</h3>
+                  <p>Finding the right location for your development team is a challenge. High costs, cultural differences, and project misalignment. Vision Infotech</p>
+                </div>
+              </div>
+            </div>
+            <div class="service-main-col">
+              <div class="columan-ser">
+              <div class="under-services logo-ser-1">
+                <img src="web-img/app-development.png" alt="image" style="width: auto; height: 120px; margin:20px; ">
+              </div>
+              <div class="under-ser-heading service-heading-5">
+                <h3>Web Development Services</h3>
+                <p>Struggling with outdated websites or the need for new web solutions? User dissatisfaction, lost business, and a competitive disadvantage. Vision</p>
+              </div>
+            </div>
+            </div>
+            <div class="service-main-col">
+              <div class="columan-ser">
+              <div class="under-services logo-ser-1">
+                <img src="web-img/app-development.png" alt="image" style="width: auto; height: 120px; margin:20px; ">
+              </div>
+              <div class="under-ser-heading service-heading-6">
+                <h3>Zoho CRM Customization</h3>
+                <p>Your CRM system lacks essential features and customization. Inefficient operations, wasted time, and missed sales opportunities. Partner with Vision Infotech for Zoho CRM customization, streamlining yo</p>
+              </div>
+            </div>
+            </div>          
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="four-sec" id="fo">
+      <div class="container">
+        <div class="four-under">
+          <div class="four-under-row for-one">
+            <div class="four-col1 G">
+              <h1>Transform Your Digital World</h1>
+              <p>Unleash the full potential of digital transformation with our company's expert solutions.</p>
+            </div>
+            <div class="four-col2">
+              <img src="image/undraw_join_re_w1lh.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="technology">
+      <div class="container">
+        <div class="tech-under">
+          <div class="tech-under-row">
+              <div class="tech-under-heading">
+                <h1>Technology and Platform</h1>
+                <p>Discover a versatile platform tailored to meet your tech needs, providing seamless integration and unparalleled performance for all your projects and endeavors.</p>
+              </div>
+          </div>
+          <div class="texh-under-row2">
+            <div class="tech-under-list">
+              <ul>
+                <li id="fornt">
+                 fornten 
+                </li>
+                <li id="back">
+                  backend
+                </li>
+                <li id="db">
+                 data base
+                </li>
+                <li id="infra">
+                 infrastructure
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div> 
+        <div class="icon-in-list">
+          <div class="under-icon-list" style="max-width: 1320px;">
+            <div class="under-icon-list-set slider">
+              <div class="list-icon-content list-icon-1">
+                <div class="icon-set">
+                 <img id="tech-img" src="web-img/html.png" >
+                </div>
+                <div class="bottam-heading">
+                  <h2>html</h2>
+                </div>
+              </div>
+              <div class="list-icon-content list-icon-2">
+                <div class="icon-set">
+                 <img  id="tech-img" src="web-img/css.png"> 
+                </div> 
+                <div class="bottam-heading">
+                  <h2>css</h2>
+                </div>
+              </div>
+              <div class="list-icon-content list-icon-3">
+                <div class="icon-set">
+                 <img id="tech-img"  src="web-img/java scrip.png">
+                </div>
+                <div class="bottam-heading">
+                  <h2>java script</h2>
+                </div>
+              </div>
+              <div class="list-icon-content list-icon-4">
+                <div class="icon-set">
+                  <img id="tech-img"  src="web-img/bootrap.png">
+                </div>
+                <div class="bottam-heading">
+                  <h2>boostrap</h2>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div> 
+        <div class="Learn-more-button">
+          <button>leran more</button>
+        </div>  
+      </div>
+    </section>
+    <section class="five-sec">
+      <div class="container">
+        <div class="fiver-under-row for-one">
+          <div class="five-col1">
+            <div class="process-box-heading">
+              <h1 class="G">Software development </h1>
+              <p>
+                We believe in the idea of customer delight and relationship
+                building. This leads to our team working closely with you on the
+                planning, testing, execution and maintenance services. We leave
+                no room for errors or inaccuracy at every step of the way.
+              </p>
+            </div>
+          </div>
+          <div class="five-col1">
+            <div class="list-box-porcces">
+              <div class="box1">
+                <div class="box1-img">
+                  <img src="image/undraw_and_vue_-59-tp.png" alt="" />
+                </div>
+                <div class="box1-process-content">
+                  <h4 class="h1">Learning &amp; planning</h4>
+                  <p>
+                    While starting any software project, we work an extra mile
+                    to understand the domain and goals. We use our expertise and
+                    obtained knowledge to plan and estimate the project.
+                  </p>
+                </div>
+              </div>
+              <div class="box1">
+                <div class="box1-img">
+                  <img src="image/undraw_futuristic_interface_re_0cm6 (1).png" alt="" />
+                </div>
+                <div class="box1-process-content">
+                  <h4 class="h1">UX &amp; design</h4>
+                  <p>
+                    At this milestone, we work with you on your software
+                    solution and our designers will create a visual layer of
+                    your software project. The outcome would be the exact
+                    screens of the application and plans the optimum user
+                    experience. Either we work with your appointed designers or
+                    okay to be provided with a ready-to-use design for your
+                    solution.
+                  </p>
+                </div>
+              </div>
+              <div class="box1">
+                <div class="box1-img">
+                  <img src="image/undraw_web_developer_re_h7ie.png" alt="" />
+                </div>
+                <div class="box1-process-content">
+                  <h4 class="h1">Development</h4>
+                  <p>
+                    Once look &amp; feel are finalized, and GO signal triggers
+                    to the technical team. By now they are fully briefed as the
+                    designated team has been involved in the software
+                    development planning phase. We develop the project per
+                    agreed timeline and giving you progress feedback on how the
+                    planned interfaces actually work and further ways to improve
+                    the experience.
+                  </p>
+                </div>
+              </div>
+              <div class="box1">
+                <div class="box1-img">
+                  <img src="image/undraw_product_iteration_kjok.png" alt="" />
+                </div>
+                <div class="box1-process-content">
+                  <h4 class="h1">Integration</h4>
+                  <p>
+                    In parallel to software development, we proceed with the
+                    delicate process of integrating the site with any needed
+                    third parties. These can be warehouses, payment gateways,
+                    messaging systems, search engines etc.
+                  </p>
+                </div>
+              </div>
+              <div class="box1">
+                <div class="box1-img">
+                  <img src="image/undraw_split_testing_l1uw.png" alt="" />
+                </div>
+                <div class="box1-process-content">
+                  <h4 class="h1">Testing &amp; quality assurance</h4>
+                  <p>
+                    To ensure the quality of the software solution, we do enough
+                    of testing during the development and integration phase,
+                    additionally, we always perform a full set of testing and QA
+                    before we hand over the product. Finally, we invite you to
+                    perform your own verification and to provide us your
+                    valuable thoughts on a given software solution.
+                  </p>
+                </div>
+              </div>
+              <div class="box1">
+                <div class="box1-img">
+                  <img src="image/undraw_contract_re_ves9.png" alt="" />
+                </div>
+                <div class="box1-process-content">
+                  <h4 class="h1">Deployment</h4>
+                  <p>
+                    Basically, we do create and set up hosting for the project.
+                    For deployment, we create an automated script which ensures
+                    a safe initial deployment and any future deployments.
+                  </p>
+                </div>
+              </div>
+              <div class="box1">
+                <div class="box1-img">
+                  <img src="image/undraw_maintenance_re_59vn.png" alt="" />
+                </div>
+                <div class="box1-process-content">
+                  <h4 class="h1">Maintenance</h4>
+                  <p>
+                    When the project is deployed and accessible for your end
+                    users, little work to be done. We're happy to have you
+                    covered for long term support including updates, fixes and
+                    changes per your request. We appreciate your priority if
+                    needed any bigger changes handled on an expedited schedule.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="detail-section">
+          <div class="fot-col-main">
+            <div class="fot-row fot-one">
+              <div class="fot-logo">
+                <h1>hire <span>me</span></h1>
+              </div>
+            </div>
+            <div class="fot-row fot-tow">
+              <div class="fot-adderss">
+                <h1><i class="fa-solid fa-location-dot"></i>location</h1>
+                <p>6846 Rowe Circles, Delilahview, Oklahoma - 95614, Chad
+                  394 Highfield Close, Kittyhaven, Virginia - 10557, Thailand
+                  2756 Carmella Skyway, Janiyaborough, Iowa - 81861, Fiji
+                  74375 Mary Street, Lake Leviland, Hawaii - 66049, Chile</p>
+              </div>
+            </div>
+            <div class="fot-row fot-three">
+              <div class="fot-call">
+                <h1><i class="fa-solid fa-phone"></i>Call</h1>
+                <p>+1 123 456 7890</p>
+              </div>
+            </div>
+            <div class="fot-row fot-four">
+              <div class="fot-mail">
+                <h1><i class="fa-solid fa-envelope"></i>Email</h1>
+                <p>jocif56500@brinkc.com</p>
+              </div>
+            </div>
+            <div class="fot-row fot-five">
+              <div class="fot-follow">
+                <h1><i class="fa-solid fa-users"></i>Follow</h1>
+                <div class="fot-icon">
+                  <div class="icon-insta icons">
+                    <i class="fa-brands fa-instagram"></i>
+                  </div>
+                  <div class="icon-yt icons">
+                    <i class="fa-brands fa-youtube"></i>
+                  </div>
+                  <div class="icon-linkdin icons">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                  <div class="icon-twitter icons">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  </div>
+                  <div class="icon-facebook icons">
+                   <i class="fa-brands fa-facebook"></i>
+                  </div>                                   
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="last-fot">
+          <p>We are tracking any intention of piracy</p>
+          <p>Copyright © 2024 Grow Solutions. All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script> -->
+    <script src="myweb.js"></script>
+    <!-- <script>
+      $('.slider').slick({
+  dots: false,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+    </script> -->
+  </body>
+</html>
